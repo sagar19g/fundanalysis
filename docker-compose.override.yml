@@ -1,0 +1,9 @@
+services:
+  pipeline:
+    container_name: financial_pipeline_dev
+    env_file:
+      - .env.dev
+    volumes:
+      - ./data/external-funds:/app/data/external-funds
+      - ./data/output:/app/data/output
+      - ./data/reference_data.db:/app/data/reference_data.db

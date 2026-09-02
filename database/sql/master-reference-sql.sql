@@ -174768,7 +174768,8 @@ CREATE TEMP TABLE norm_bd_prices AS
             price REAL,
             quantity REAL,
             realised_pl REAL,
-            market_value REAL
+            market_value REAL,
+            created_at DATETIME
         );
 
 CREATE INDEX IF NOT EXISTS idx_fp_sym_dt ON fund_positions(symbol, report_date);

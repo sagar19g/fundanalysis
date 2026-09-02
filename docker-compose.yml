@@ -1,0 +1,6 @@
+services:
+  pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: "no"
