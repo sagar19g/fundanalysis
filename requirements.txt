@@ -1,0 +1,7 @@
+# Core Data & Database Processing
+pandas>=2.0.0
+sqlalchemy>=2.0.0
+
+# Testing & Quality Assurance (TDD)
+pytest>=7.4.0
+pytest-cov>=4.1.0
